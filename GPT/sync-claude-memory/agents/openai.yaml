@@ -1,0 +1,8 @@
+interface:
+  display_name: "同步 Claude 记忆"
+  short_description: "按需读取当前项目的 Claude 记忆并加载到会话"
+  default_prompt: "Use $sync-claude-memory to load the Claude memory associated with the current project."
+
+policy:
+  allow_implicit_invocation: false
+

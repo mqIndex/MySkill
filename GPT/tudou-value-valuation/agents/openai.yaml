@@ -1,0 +1,4 @@
+interface:
+  display_name: "土豆估值法"
+  short_description: "结合质量评分、历史分位与现金流情景，检验隐含增长并计算合理估值和买入折扣"
+  default_prompt: "使用 $tudou-value-valuation 分析这家公司，先核对事实与经营证据，再与我讨论关键估值假设，结合历史分位及适用的DCF和反向DCF计算价值与买入门槛。"

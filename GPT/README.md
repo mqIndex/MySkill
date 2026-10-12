@@ -9,7 +9,9 @@ Shared source for these Windows desktop/Codex skills:
 | `tudou-value-valuation` | Equity valuation workflow |
 | `sync-claude-memory` | Read Claude project memory on explicit request |
 
-The original skill files and bundled references are preserved byte for byte.
+Skill instructions and bundled references are preserved byte for byte. The
+Claude memory skill's UI policy disables implicit invocation: it runs only when
+you explicitly request it.
 Third-party authoring and license terms still apply. Only skill code and instructions
 are included; Claude memory, chat history, credentials, and client configuration
 are not uploaded.
@@ -77,4 +79,3 @@ Unregister-ScheduledTask -TaskName 'MySkill-GPT-Sync' -Confirm:$false
 ```
 
 This removes only the schedule. Existing skill links and backups remain.
-
